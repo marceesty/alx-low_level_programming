@@ -1,2 +1,1 @@
-
-This file contains all about C
+This file contains all about C programming
