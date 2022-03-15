@@ -12,6 +12,7 @@
  */
 int main(void)
 {
-putchar("_putchar\n");
+  char ch = '_putchar';
+putchar("ch\n");
 return (0);
 }
