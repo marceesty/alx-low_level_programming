@@ -6,12 +6,8 @@
  */
 int main(void)
 {
-char text[4] = "Main";
-int i;
-for (i = 0; i < 4; i++)
-{
-_putchar(text[i]);
-}
+a = "_putchar";
+
 _putchar('\n');
 return (0);
 }
