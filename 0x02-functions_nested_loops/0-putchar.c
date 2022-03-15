@@ -5,7 +5,7 @@
  * The character to print
  * Returns 0
  */
-void main()
+int main(void)
 {
   printf("_putchar");
 	return (0);
