@@ -1,18 +1,23 @@
 #include "main.h"
+
+
 /**
- *main - entry point.
- *Description: program starts and ends here.
- *Return: 0 on success.
+ * main - Entry point
+ *
+ * Return: nothing, return void
  */
-#include <stdio.h>
-/**
- * _putchar - writes the character _putchar
- * The character to print
- * Returns 0
- */
+
 int main(void)
 {
-  char ch = '_putchar';
-putchar("ch\n");
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
 return (0);
 }
