@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ *main - entry point.
+ *Description: program starts and ends here.
+ *Return: 0 on success.
+ */
 #include <stdio.h>
 /**
  * _putchar - writes the character _putchar
@@ -7,7 +12,6 @@
  */
 int main(void)
 {
-
-  printf("_putchar\n");
-	return (0);
+printf("_putchar\n");
+return (0);
 }
