@@ -5,29 +5,26 @@
  *
  * Return: void.
  */
+
 void puts_half(char *str)
+
 {
-int n, lenght, mid;
-while (str[lenght] != '\0')
-{
-lenght++;
-}
-if (lenght % 2 == 0)
-{
-mid = lenght / 2;
-for (n = mid; n < lenght; n++)
-{
-_putchar(str[n]);
-}
-}
-else
-{
-mid = (lenght - 1) / 2;
-for (n = mid + 1; n < lenght; n++)
-{
-_putchar(str[n]);
-}
-}
-_putchar('\n');
+	int i, last;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+
+	last = (i + 1) / 2;
+
+	for (i = last; str[i]; i++)
+	{
+		_putchar (str[i]);
+	}
+
+	_putchar ('\n');
+
 }
 
