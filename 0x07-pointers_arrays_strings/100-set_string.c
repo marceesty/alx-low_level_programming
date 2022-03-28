@@ -1,24 +1,14 @@
 #include "main.h"
-
 /**
- * _strchr - locates a character in a string
- * @s: string to check
- * @c: character to check for
+ * set_string - sets the value of a pointer to a char.
+ * @s: pointer to pointer.
+ * @to: pointer to char.
  *
- * Return: pointer to spot in s with c or null
+ * Return: void.
  */
 
-char *_strchr(char *s, char c)
+void set_string(char **s, char *to)
 {
-int i;
-
-for (i = 0; *(s + i); i++)
-{
-if (*(s + i) == c)
-return (s + i);
-}
-if (*(s + i) == c)
-return (s + i);
-return (0);
+*s = to;
 }
 
