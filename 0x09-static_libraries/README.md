@@ -1,2 +1,2 @@
-This library is for 0x09 statics.
+This folder is for static library.
 
