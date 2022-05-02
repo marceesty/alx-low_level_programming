@@ -85,7 +85,8 @@ case ELFCLASS64:
 printf("ELF64\n");
 break;
 default:
-printf("<unknown: %x>\n", e_ident[EI_CLASS]);
+printf(" < unknown : % x > \n", e_ident[EI_CLASS]);
+
 }
 }
 
@@ -96,7 +97,7 @@ printf("<unknown: %x>\n", e_ident[EI_CLASS]);
 
 void print_data(unsigned char *e_ident)
 {
-printf("  Data:                              ");
+printf("  Data :                              ");
 
 switch (e_ident[EI_DATA])
 {
@@ -142,7 +143,7 @@ break;
 
 void print_osabi(unsigned char *e_ident)
 {
-printf("  OS/ABI:                            ");
+printf("  OS / ABI :                            ");
 
 switch (e_ident[EI_OSABI])
 {
@@ -319,5 +320,6 @@ print_entry(header->e_entry, header->e_ident);
 free(header);
 close_elf(o);
 return (0);
+
 }
 
